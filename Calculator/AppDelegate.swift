@@ -2,9 +2,6 @@
 //  AppDelegate.swift
 //  Calculator
 //
-//  Created by Cal on 11/4/15.
-//  Copyright © 2015 iOS Club. All rights reserved.
-//
 
 import UIKit
 

@@ -12,6 +12,8 @@
 		2EB88E3D1BE9DEA300DC38B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB88E3B1BE9DEA300DC38B0 /* Main.storyboard */; };
 		2EB88E3F1BE9DEA300DC38B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB88E3E1BE9DEA300DC38B0 /* Assets.xcassets */; };
 		2EB88E421BE9DEA300DC38B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB88E401BE9DEA300DC38B0 /* LaunchScreen.storyboard */; };
+		2EB88E4B1BE9DEE000DC38B0 /* CalculationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB88E491BE9DEE000DC38B0 /* CalculationDelegate.swift */; };
+		2EB88E4C1BE9DEE000DC38B0 /* DefaultCalculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB88E4A1BE9DEE000DC38B0 /* DefaultCalculations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2EB88E3E1BE9DEA300DC38B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EB88E411BE9DEA300DC38B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EB88E431BE9DEA300DC38B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB88E491BE9DEE000DC38B0 /* CalculationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculationDelegate.swift; sourceTree = "<group>"; };
+		2EB88E4A1BE9DEE000DC38B0 /* DefaultCalculations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultCalculations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				2EB88E3E1BE9DEA300DC38B0 /* Assets.xcassets */,
 				2EB88E401BE9DEA300DC38B0 /* LaunchScreen.storyboard */,
 				2EB88E431BE9DEA300DC38B0 /* Info.plist */,
+				2EB88E491BE9DEE000DC38B0 /* CalculationDelegate.swift */,
+				2EB88E4A1BE9DEE000DC38B0 /* DefaultCalculations.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				2EB88E3A1BE9DEA300DC38B0 /* ViewController.swift in Sources */,
 				2EB88E381BE9DEA300DC38B0 /* AppDelegate.swift in Sources */,
+				2EB88E4B1BE9DEE000DC38B0 /* CalculationDelegate.swift in Sources */,
+				2EB88E4C1BE9DEE000DC38B0 /* DefaultCalculations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +258,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.iosgatech.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.iosgatech.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
